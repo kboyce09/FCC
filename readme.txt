@@ -1,2 +1,1 @@
-What do you want?
-I meant right now?
+Solutions I, Kyle Boyce, have developed for FreeCodeCamp.org Challenges & Certifications.
