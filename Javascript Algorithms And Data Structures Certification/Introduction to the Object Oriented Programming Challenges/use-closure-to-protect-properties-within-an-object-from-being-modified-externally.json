@@ -1,0 +1,1 @@
+{"index.js":"function Bird() {\n  let weight = 15;\n  \n  this.getWeight = function() { // publicly available method that a bird object can use\n    return weight;\n  };\n}\n"}
