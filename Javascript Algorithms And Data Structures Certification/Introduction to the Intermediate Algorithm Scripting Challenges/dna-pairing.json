@@ -1,0 +1,1 @@
+{"index.js":"let pairs = {\n  \"A\":\"T\",\n  \"T\":\"A\",\n  \"C\":\"G\",\n  \"G\":\"C\"\n};\n\nfunction pairElement(str) {\n  let arr = str.split(\"\");\n  let finalArr = [];\n  for(let i = 0; i < arr.length; i++) {\n    finalArr.push([arr[i], pairs[arr[i]]]);\n  }\n  return finalArr;\n}\n\npairElement(\"GCG\");"}
