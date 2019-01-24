@@ -1,0 +1,1 @@
+{"index.js":"function palindrome(str) {\n  // Good luck!\n  str = str.replace(/\\W|\\s|_/gi, '').toLowerCase();\n  console.log(str);\n  let arr = str.split('');\n  let revArr = arr.slice().reverse();\n  for(let i = 0; i < arr.length; i++) {\n    if(arr[i] !== revArr[i])\n      return false;\n  }\n  return true;\n}\n\n\n\npalindrome(\"1 eye for of 1 eye.\");"}
